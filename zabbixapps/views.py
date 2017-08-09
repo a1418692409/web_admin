@@ -4,11 +4,11 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from pprint import pprint
 
-from .zabbixtools import zabbixtools
+from .zabbixtools import Zabbixtools
 from .forms import AddForm
 
 
-host = zabbixtools()
+host = Zabbixtools()
 def index(request):
     #当提交表单时使用POST方式
     if request.method == 'POST':

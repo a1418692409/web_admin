@@ -7,7 +7,7 @@ import sys
 from pprint import pprint
 
 
-class zabbixtools(object):
+class Zabbixtools():
     def __init__(self):
         self.url = "https://zabbix.zhbservice.com/zabbix/api_jsonrpc.php"
         self.header = {"Content-Type":"application/json"}
