@@ -205,7 +205,7 @@ class Zabbixtools():
             print "\033[1;31;40m%s\033[0m" % "Enter Error: ip or groupid or tempateid is NULL,please check it !"
 
 # def main():
-#     test = zabbixtools()
+#     test = Zabbixtools()
 #     return test
     # test.host_get()
     # test.template_get()
@@ -213,4 +213,4 @@ class Zabbixtools():
 
 
 # if __name__ == '__main__':
-#     host = zabbixtools
+#     host = Zabbixtools
