@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9a9a3a5-9c65-435b-be61-bccbb3d5f61d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/web_admin.iml" afterPath="$PROJECT_DIR$/.idea/web_admin.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web_admin.iws" />
@@ -33,7 +31,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_admin/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="401">
@@ -43,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zabbixtools.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="zabbixtools.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zabbixapps/zabbixtools.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
@@ -568,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502259180601</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更新">
+      <created>1502259225543</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1502259225543</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -613,7 +618,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新zabbixtools" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新zabbixtools" />
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -748,16 +754,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/tools/zabbixtools.py" />
-    <entry file="file://$PROJECT_DIR$/zabbixapps/zabbixtools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#46#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zabbixapps/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
@@ -773,6 +769,16 @@
         <state relative-caret-position="401">
           <caret line="135" column="13" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zabbixapps/zabbixtools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#46#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
