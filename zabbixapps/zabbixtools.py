@@ -58,7 +58,10 @@ class Zabbixtools():
                 print 'Error code: ', e.code
             return 0
         else:
-            response = json.loads(result.read())['result']
+            response = json.loads(result.read())
+            # pprint(type(response))
+            if 'result' in response.keys():
+                response = response['result']
             result.close()
             # pprint(response)
             return response
@@ -205,11 +208,12 @@ class Zabbixtools():
             if 'result' in res.keys():
                 res = res['result']
                 if 'hostids' in res.keys():
-                    print "\033[1;32;40m%s\033[0m" % "Create host success"
+                    print "Create host success"
             else:
-                print "\033[1;31;40m%s\033[0m" % "Create host failure: %s" % res['error']['data']
+                print "Create host failure: %s" % res['error']['data']
         else:
-            print "\033[1;31;40m%s\033[0m" % "Enter Error: ip or groupid or tempateid is NULL,please check it !"
+            print "Enter Error: ip or groupid or tempateid is NULL,please check it !"
+        return res
 
 # def main():
 #     test = Zabbixtools()
