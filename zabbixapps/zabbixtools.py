@@ -153,23 +153,28 @@ class Zabbixtools():
         else:
             print "\t", "\033[1;31;40m%s\033[0m" % "Delet Host:%s failure !" % hostip
 
-    def host_create(self):
+    def host_create(self, hostip):
         '''
         通过zabbix API 添加监控主机
         '''
-        hostip = raw_input('Enter your Host_ip : ')
-        groupid = raw_input('Enter you Group_id : ')
-        templateid = raw_input('Enter your Template_id : ')
+        # hostip = raw_input('Enter your Host_ip : ')
+        # groupid = raw_input('Enter you Group_id : ')
+        groupid = '2'
+        # templateid = raw_input('Enter your Template_id : ')
+        templateid = '3'
         g_list = []
         t_list = []
         for i in groupid.split(','):
             var = {}
             var['groupid'] = i
             g_list.append(var)
+            # pprint(g_list)
         for i in templateid.split(','):
             var = {}
             var['templateid'] = i
             t_list.append(var)
+            # pprint(t_list)
+        # pprint(hostip)
         if hostip and groupid and templateid:
             data = json.dumps(
                 {
@@ -194,7 +199,9 @@ class Zabbixtools():
                     "id": 1,
                 }
             )
-            res =  self.get_data(data,hostip)
+            pprint(data)
+            res = self.get_data(data)
+            pprint(res)
             if 'result' in res.keys():
                 res = res['result']
                 if 'hostids' in res.keys():
