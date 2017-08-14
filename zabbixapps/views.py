@@ -16,15 +16,17 @@ def index(request):
         form = AddForm(request.POST)
         #如果提交的数据合法
         if form.is_valid():
-            a = form.cleaned_data['a']
+            a = form.cleaned_data['ip']
+            pprint(a)
             # return HttpResponse(str(int(a))
-            host.host_create(a)
+            create_host_message = host.host_create(a)
+            # pprint(create_host_message)
+            return HttpResponse(create_host_message['error']['data'])
     else:
         form = AddForm()
     return render(request,'index.html',{'form':form})
 
 def get_host(request):
-    # host = zabbixtools()
     host_list = host.host_get()
     # pprint(host_list)
     # for item in host_list:
