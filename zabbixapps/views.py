@@ -17,11 +17,13 @@ def index(request):
         #如果提交的数据合法
         if form.is_valid():
             a = form.cleaned_data['ip']
-            pprint(a)
+            b = form.cleaned_data['groupid']
+            c = form.cleaned_data['templateid']
+            # pprint(a)
             # return HttpResponse(str(int(a))
-            create_host_message = host.host_create(a)
+            create_host_message = host.host_create(a, b, c)
             # pprint(create_host_message)
-            return HttpResponse(create_host_message['error']['data'])
+            return HttpResponse(create_host_message)
     else:
         form = AddForm()
     return render(request,'index.html',{'form':form})
