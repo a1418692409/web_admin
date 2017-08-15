@@ -128,7 +128,7 @@ class Zabbixtools():
         )
         res = self.get_data(data)
         # res = json.loads(res)
-        pprint(res)
+        # pprint(res)
         # res = res['result']
         return res
 
@@ -202,9 +202,9 @@ class Zabbixtools():
                     "id": 1,
                 }
             )
-            pprint(data)
+            # pprint(data)
             res = self.get_data(data)
-            pprint(res)
+            # pprint(res)
             if 'hostids' in res.keys():
                 print "Create host success"
             else:

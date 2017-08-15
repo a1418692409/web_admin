@@ -14,11 +14,16 @@ def index(request):
     if request.method == 'POST':
         #form包含提交的数据
         form = AddForm(request.POST)
+        # groupid_choices = host.hostgroup_get()
+        # for item in groupid_choices:
+        #     del(item['flags'])
+        #     del(item['internal'])
+        # pprint(groupid_choices)
         #如果提交的数据合法
         if form.is_valid():
             a = form.cleaned_data['ip']
-            b = form.cleaned_data['groupid']
-            c = form.cleaned_data['templateid']
+            b = form.cleaned_data['groupids']
+            c = form.cleaned_data['templateids']
             # pprint(a)
             # return HttpResponse(str(int(a))
             create_host_message = host.host_create(a, b, c)
