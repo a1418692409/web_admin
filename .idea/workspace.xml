@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c9a9a3a5-9c65-435b-be61-bccbb3d5f61d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_admin/urls.py" afterPath="$PROJECT_DIR$/web_admin/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zabbixapps/forms.py" afterPath="$PROJECT_DIR$/zabbixapps/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zabbixapps/views.py" afterPath="$PROJECT_DIR$/zabbixapps/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zabbixapps/zabbixtools.py" afterPath="$PROJECT_DIR$/zabbixapps/zabbixtools.py" />
     </list>
     <ignored path="web_admin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +32,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="zabbixtools.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zabbixtools.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zabbixapps/zabbixtools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="516">
               <caret line="160" column="19" selection-start-line="160" selection-start-column="19" selection-end-line="160" selection-end-column="19" />
               <folding>
                 <element signature="e#46#57#0" expanded="true" />
@@ -92,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zabbixapps/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+            <state relative-caret-position="456">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -147,8 +144,8 @@
         <option value="$PROJECT_DIR$/apps/tools/zabbixtools.py" />
         <option value="$PROJECT_DIR$/zabbixapps/views.py" />
         <option value="$PROJECT_DIR$/web_admin/urls.py" />
-        <option value="$PROJECT_DIR$/zabbixapps/forms.py" />
         <option value="$PROJECT_DIR$/zabbixapps/zabbixtools.py" />
+        <option value="$PROJECT_DIR$/zabbixapps/forms.py" />
       </list>
     </option>
   </component>
@@ -714,7 +711,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502851934127</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="主机增加，删除">
+      <created>1502949430332</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1502949430332</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -784,7 +788,8 @@
     <MESSAGE value="通过zabbix api 增加主机功能" />
     <MESSAGE value="主机组下拉列表开发中。。。" />
     <MESSAGE value="主机组、模板下拉列表开发完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="主机组、模板下拉列表开发完成" />
+    <MESSAGE value="主机增加，删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="主机增加，删除" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -940,16 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zabbixapps/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_admin/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -973,10 +968,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zabbixapps/zabbixtools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="516">
           <caret line="160" column="19" selection-start-line="160" selection-start-column="19" selection-end-line="160" selection-end-column="19" />
           <folding>
             <element signature="e#46#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zabbixapps/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -36,5 +36,5 @@ class DelHostAddForm(forms.Form):
     for item in hosts:
         item = (item['hostid'], item['host'])
         host_list.append(item)
-    pprint(host_list)
+    # pprint(host_list)
     ip = forms.ChoiceField(host_list)
