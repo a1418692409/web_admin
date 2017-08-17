@@ -19,7 +19,8 @@ from zabbixapps import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.index, name='home'),
+    url(r'^create/$', views.create_host, name='create'),
+    url(r'^delete/$', views.del_host, name='delete'),
     url(r'^host/$', views.get_host, name='host'),
     url(r'^template/$', views.get_template, name='template'),
     url(r'^hostgroup/$',views.get_hostgroup, name='hostgroup'),

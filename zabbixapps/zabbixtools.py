@@ -132,29 +132,33 @@ class Zabbixtools():
         # res = res['result']
         return res
 
-    def host_del(self):
+    def host_del(self, hostid):
         '''
         通过zabbix API 删除主机
         '''
-        hostip = raw_input('Enter Your Check Host_name: ')
-        hostid = self.host_get(hostip)
+        # hostip = raw_input('Enter Your Check Host_name: ')
+        # pprint(hosts)
         if hostid == 0:
-            print         "This host cannot find in zabbix,please check it !"
+            print "This host cannot find in zabbix,please check it !"
             sys.exit()
         data = json.dumps(
             {
                 "jsonrpc":"2.0",
-                "method":"host.delete",
-                "params":[{"hostid": hostid}],
+                "method": "host.delete",
+                "params":[
+                    hostid,
+                ],
                 "auth":self.authID,
                 "id":1
             }
         )
-        res = self.get_data(data)['result']
+        # pprint(data)
+        res = self.get_data(data)
+        # pprint(res)
         if 'hostids' in res.keys():
-            print "\t", "\033[1;32;40m%s\033[0m" % "Delet Host:%s success !" % hostip
+            return "Delet Host:%s success !" % res
         else:
-            print "\t", "\033[1;31;40m%s\033[0m" % "Delet Host:%s failure !" % hostip
+            return "Delet Host:%s failure !" % res
 
     def host_create(self, hostip, groupid, templateid):
         '''

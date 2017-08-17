@@ -2,7 +2,7 @@ from django import forms
 from .zabbixtools import Zabbixtools
 from pprint import pprint
 
-class AddForm(forms.Form):
+class CreateHostAddForm(forms.Form):
     host = Zabbixtools()
     # groupid_choices = [('2', 'Linux Server'), ('10', 'testing')]
     # templateid_choices = [('10001', 'Template OS Linux'), ('10050', 'Template App Zabbix Agent')]
@@ -27,3 +27,14 @@ class AddForm(forms.Form):
     # def templateid(self, templateid_choices):
     #     templateids = forms.ChoiceField(templateid_choices)
     #     return templateids
+
+class DelHostAddForm(forms.Form):
+    host = Zabbixtools()
+    host_list = []
+    hosts = host.host_get()
+    # pprint(hosts)
+    for item in hosts:
+        item = (item['hostid'], item['host'])
+        host_list.append(item)
+    pprint(host_list)
+    ip = forms.ChoiceField(host_list)

@@ -5,20 +5,15 @@ from django.shortcuts import render
 from pprint import pprint
 
 from .zabbixtools import Zabbixtools
-from .forms import AddForm
-
+from .forms import CreateHostAddForm
+from .forms import DelHostAddForm
 
 host = Zabbixtools()
-def index(request):
+def create_host(request):
     #当提交表单时使用POST方式
     if request.method == 'POST':
         #form包含提交的数据
-        form = AddForm(request.POST)
-        # groupid_choices = host.hostgroup_get()
-        # for item in groupid_choices:
-        #     del(item['flags'])
-        #     del(item['internal'])
-        # pprint(groupid_choices)
+        form = CreateHostAddForm(request.POST)
         #如果提交的数据合法
         if form.is_valid():
             a = form.cleaned_data['ip']
@@ -30,8 +25,21 @@ def index(request):
             # pprint(create_host_message)
             return HttpResponse(create_host_message)
     else:
-        form = AddForm()
+        form = CreateHostAddForm()
     return render(request,'index.html',{'form':form})
+
+def del_host(request):
+    if request.method == 'POST':
+        form = DelHostAddForm(request.POST)
+        if form.is_valid():
+            a = form.cleaned_data['ip']
+            del_host_message = host.host_del(a)
+            pprint(del_host_message)
+            return HttpResponse(del_host_message)
+    else:
+        form = DelHostAddForm()
+    return  render(request, 'index.html', {'form': form})
+
 
 def get_host(request):
     host_list = host.host_get()
