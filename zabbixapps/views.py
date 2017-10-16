@@ -26,7 +26,7 @@ def create_host(request):
             return HttpResponse(create_host_message)
     else:
         form = CreateHostAddForm()
-    return render(request,'index.html',{'form':form})
+    return render(request, 'host_manage.html', {'form':form})
 
 def del_host(request):
     if request.method == 'POST':
@@ -38,7 +38,7 @@ def del_host(request):
             return HttpResponse(del_host_message)
     else:
         form = DelHostAddForm()
-    return  render(request, 'index.html', {'form': form})
+    return  render(request, 'host_manage.html', {'form': form})
 
 
 def get_host(request):
@@ -66,3 +66,6 @@ def get_hostgroup(request):
 
 def echarts(request):
     return render(request,'echarts.html')
+
+def index(request):
+    return render(request, 'index.html')

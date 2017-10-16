@@ -1,5 +1,21 @@
-<form method='post'>
-    {% csrf_token %}
-    {{ form }}
-    <input type="submit" value="提交">
-</form>
+<html>
+<head>
+    <title>运维平台</title>
+</head>
+<body style="background-color: yellow">
+<p><a href="http://127.0.0.1:8000/echarts">Echarts图表</a><br />
+echarts图表用于运维平台统计数据展现</p>
+<hr />
+<p><a href="http://127.0.0.1:8000/host">zabbix监控主机列表</a><br />
+展示目前ZABBIX监控中的主机列表</p>
+<hr />
+<p><a href="http://127.0.0.1:8000/hostgroup">zabbix监控主机组</a><br />
+展示目前ZABBIX监控中的主机组列表</p>
+<hr />
+<p><a href="http://127.0.0.1:8000/create">添加被监控主机</a> </p>
+添加新的被监控主机，默认监控端口为10050
+<hr />
+<p><a href="http://127.0.0.1:8000/delete">删除被监控主机</a> </p>
+删除被监控主机
+</body>
+</html>
