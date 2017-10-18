@@ -24,6 +24,6 @@ urlpatterns = [
     url(r'^host/$', views.get_host, name='host'),
     url(r'^template/$', views.get_template, name='template'),
     url(r'^hostgroup/$',views.get_hostgroup, name='hostgroup'),
-    url(r'^echarts/', views.echarts),
+    url(r'^echarts/', views.echarts, name='echarts'),
     url(r'^$', views.index),
 ]
