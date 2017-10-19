@@ -3,6 +3,86 @@
   <component name="ChangeListManager">
     <list default="true" id="c9a9a3a5-9c65-435b-be61-bccbb3d5f61d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_admin/settings.py" afterPath="$PROJECT_DIR$/web_admin/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zabbixapps/templates/echarts.html" afterPath="$PROJECT_DIR$/zabbixapps/templates/echarts.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/bar.js" afterPath="$PROJECT_DIR$/static/js/chart/bar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/chord.js" afterPath="$PROJECT_DIR$/static/js/chart/chord.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/eventRiver.js" afterPath="$PROJECT_DIR$/static/js/chart/eventRiver.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/force.js" afterPath="$PROJECT_DIR$/static/js/chart/force.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/funnel.js" afterPath="$PROJECT_DIR$/static/js/chart/funnel.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/gauge.js" afterPath="$PROJECT_DIR$/static/js/chart/gauge.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/heatmap.js" afterPath="$PROJECT_DIR$/static/js/chart/heatmap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/k.js" afterPath="$PROJECT_DIR$/static/js/chart/k.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/line.js" afterPath="$PROJECT_DIR$/static/js/chart/line.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/map.js" afterPath="$PROJECT_DIR$/static/js/chart/map.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/pie.js" afterPath="$PROJECT_DIR$/static/js/chart/pie.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/radar.js" afterPath="$PROJECT_DIR$/static/js/chart/radar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/scatter.js" afterPath="$PROJECT_DIR$/static/js/chart/scatter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/tree.js" afterPath="$PROJECT_DIR$/static/js/chart/tree.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/treemap.js" afterPath="$PROJECT_DIR$/static/js/chart/treemap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/venn.js" afterPath="$PROJECT_DIR$/static/js/chart/venn.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/wordCloud.js" afterPath="$PROJECT_DIR$/static/js/chart/wordCloud.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/echarts.js" afterPath="$PROJECT_DIR$/static/js/echarts.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/Group.js" afterPath="$PROJECT_DIR$/static/js/zrender/Group.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/Handler.js" afterPath="$PROJECT_DIR$/static/js/zrender/Handler.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/Layer.js" afterPath="$PROJECT_DIR$/static/js/zrender/Layer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/Painter.js" afterPath="$PROJECT_DIR$/static/js/zrender/Painter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/Storage.js" afterPath="$PROJECT_DIR$/static/js/zrender/Storage.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/animation/Animation.js" afterPath="$PROJECT_DIR$/static/js/zrender/animation/Animation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/animation/Clip.js" afterPath="$PROJECT_DIR$/static/js/zrender/animation/Clip.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/animation/easing.js" afterPath="$PROJECT_DIR$/static/js/zrender/animation/easing.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/config.js" afterPath="$PROJECT_DIR$/static/js/zrender/config.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/dep/excanvas.js" afterPath="$PROJECT_DIR$/static/js/zrender/dep/excanvas.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/dep/excanvas2.js" afterPath="$PROJECT_DIR$/static/js/zrender/dep/excanvas2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/dep/excanvas3.js" afterPath="$PROJECT_DIR$/static/js/zrender/dep/excanvas3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/loadingEffect/Bar.js" afterPath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Bar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/loadingEffect/Base.js" afterPath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Base.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/loadingEffect/Bubble.js" afterPath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Bubble.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/loadingEffect/DynamicLine.js" afterPath="$PROJECT_DIR$/static/js/zrender/loadingEffect/DynamicLine.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/loadingEffect/Ring.js" afterPath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Ring.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/loadingEffect/Spin.js" afterPath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Spin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/loadingEffect/Whirling.js" afterPath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Whirling.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/macro.js" afterPath="$PROJECT_DIR$/static/js/zrender/macro.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/mixin/Eventful.js" afterPath="$PROJECT_DIR$/static/js/zrender/mixin/Eventful.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/mixin/Transformable.js" afterPath="$PROJECT_DIR$/static/js/zrender/mixin/Transformable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Base.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Base.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/BezierCurve.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/BezierCurve.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Circle.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Circle.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Droplet.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Droplet.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Ellipse.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Ellipse.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Heart.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Heart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Image.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Image.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Isogon.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Isogon.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Line.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Line.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Path.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Path.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Polygon.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Polygon.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Polyline.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Polyline.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Rectangle.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Rectangle.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Ring.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Ring.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Rose.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Rose.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Sector.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Sector.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/ShapeBundle.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/ShapeBundle.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Star.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Star.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Text.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Text.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Trochoid.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Trochoid.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/util/PathProxy.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/util/PathProxy.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/util/dashedLineTo.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/util/dashedLineTo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/util/smoothBezier.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/util/smoothBezier.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/util/smoothSpline.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/util/smoothSpline.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/area.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/area.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/color.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/color.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/computeBoundingBox.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/computeBoundingBox.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/curve.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/curve.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/env.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/env.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/event.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/event.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/guid.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/guid.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/http.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/http.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/log.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/log.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/math.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/math.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/matrix.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/matrix.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/util.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/util.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/vector.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/vector.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/zrender.js" afterPath="$PROJECT_DIR$/static/js/zrender/zrender.js" />
     </list>
     <ignored path="web_admin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,8 +126,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web_admin/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
+            <state relative-caret-position="258">
+              <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -257,6 +337,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\web_admin" />
+    </key>
   </component>
   <component name="RunManager" selected="Django server.web_admin">
     <configuration default="false" name="ssh_host" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -755,7 +840,21 @@
       <option name="project" value="LOCAL" />
       <updated>1508395692524</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="修改">
+      <created>1508396131019</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1508396131019</updated>
+    </task>
+    <task id="LOCAL-00024" summary="修改">
+      <created>1508396458009</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1508396458009</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -828,7 +927,8 @@
     <MESSAGE value="主机增加，删除" />
     <MESSAGE value="添加主页" />
     <MESSAGE value="修改主页模板" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改主页模板" />
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1026,8 +1126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web_admin/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
+        <state relative-caret-position="258">
+          <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
           <folding />
         </state>
       </provider>
