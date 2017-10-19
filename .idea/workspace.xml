@@ -2,87 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9a9a3a5-9c65-435b-be61-bccbb3d5f61d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/echarts.js" afterPath="$PROJECT_DIR$/static/js/echarts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_admin/settings.py" afterPath="$PROJECT_DIR$/web_admin/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zabbixapps/templates/echarts.html" afterPath="$PROJECT_DIR$/zabbixapps/templates/echarts.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/bar.js" afterPath="$PROJECT_DIR$/static/js/chart/bar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/chord.js" afterPath="$PROJECT_DIR$/static/js/chart/chord.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/eventRiver.js" afterPath="$PROJECT_DIR$/static/js/chart/eventRiver.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/force.js" afterPath="$PROJECT_DIR$/static/js/chart/force.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/funnel.js" afterPath="$PROJECT_DIR$/static/js/chart/funnel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/gauge.js" afterPath="$PROJECT_DIR$/static/js/chart/gauge.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/heatmap.js" afterPath="$PROJECT_DIR$/static/js/chart/heatmap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/k.js" afterPath="$PROJECT_DIR$/static/js/chart/k.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/line.js" afterPath="$PROJECT_DIR$/static/js/chart/line.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/map.js" afterPath="$PROJECT_DIR$/static/js/chart/map.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/pie.js" afterPath="$PROJECT_DIR$/static/js/chart/pie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/radar.js" afterPath="$PROJECT_DIR$/static/js/chart/radar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/scatter.js" afterPath="$PROJECT_DIR$/static/js/chart/scatter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/tree.js" afterPath="$PROJECT_DIR$/static/js/chart/tree.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/treemap.js" afterPath="$PROJECT_DIR$/static/js/chart/treemap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/venn.js" afterPath="$PROJECT_DIR$/static/js/chart/venn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/chart/wordCloud.js" afterPath="$PROJECT_DIR$/static/js/chart/wordCloud.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/echarts.js" afterPath="$PROJECT_DIR$/static/js/echarts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/Group.js" afterPath="$PROJECT_DIR$/static/js/zrender/Group.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/Handler.js" afterPath="$PROJECT_DIR$/static/js/zrender/Handler.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/Layer.js" afterPath="$PROJECT_DIR$/static/js/zrender/Layer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/Painter.js" afterPath="$PROJECT_DIR$/static/js/zrender/Painter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/Storage.js" afterPath="$PROJECT_DIR$/static/js/zrender/Storage.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/animation/Animation.js" afterPath="$PROJECT_DIR$/static/js/zrender/animation/Animation.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/animation/Clip.js" afterPath="$PROJECT_DIR$/static/js/zrender/animation/Clip.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/animation/easing.js" afterPath="$PROJECT_DIR$/static/js/zrender/animation/easing.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/config.js" afterPath="$PROJECT_DIR$/static/js/zrender/config.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/dep/excanvas.js" afterPath="$PROJECT_DIR$/static/js/zrender/dep/excanvas.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/dep/excanvas2.js" afterPath="$PROJECT_DIR$/static/js/zrender/dep/excanvas2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/dep/excanvas3.js" afterPath="$PROJECT_DIR$/static/js/zrender/dep/excanvas3.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/loadingEffect/Bar.js" afterPath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Bar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/loadingEffect/Base.js" afterPath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Base.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/loadingEffect/Bubble.js" afterPath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Bubble.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/loadingEffect/DynamicLine.js" afterPath="$PROJECT_DIR$/static/js/zrender/loadingEffect/DynamicLine.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/loadingEffect/Ring.js" afterPath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Ring.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/loadingEffect/Spin.js" afterPath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Spin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/loadingEffect/Whirling.js" afterPath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Whirling.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/macro.js" afterPath="$PROJECT_DIR$/static/js/zrender/macro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/mixin/Eventful.js" afterPath="$PROJECT_DIR$/static/js/zrender/mixin/Eventful.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/mixin/Transformable.js" afterPath="$PROJECT_DIR$/static/js/zrender/mixin/Transformable.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Base.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Base.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/BezierCurve.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/BezierCurve.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Circle.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Circle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Droplet.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Droplet.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Ellipse.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Ellipse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Heart.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Heart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Image.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Image.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Isogon.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Isogon.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Line.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Line.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Path.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Path.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Polygon.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Polygon.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Polyline.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Polyline.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Rectangle.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Rectangle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Ring.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Ring.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Rose.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Rose.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Sector.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Sector.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/ShapeBundle.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/ShapeBundle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Star.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Star.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Text.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Text.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/Trochoid.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/Trochoid.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/util/PathProxy.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/util/PathProxy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/util/dashedLineTo.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/util/dashedLineTo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/util/smoothBezier.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/util/smoothBezier.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/shape/util/smoothSpline.js" afterPath="$PROJECT_DIR$/static/js/zrender/shape/util/smoothSpline.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/area.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/area.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/color.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/color.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/computeBoundingBox.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/computeBoundingBox.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/curve.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/curve.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/env.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/env.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/event.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/event.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/guid.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/guid.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/http.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/http.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/log.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/log.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/math.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/math.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/matrix.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/matrix.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/util.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/util.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/tool/vector.js" afterPath="$PROJECT_DIR$/static/js/zrender/tool/vector.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zabbixapps/static/js/zrender/zrender.js" afterPath="$PROJECT_DIR$/static/js/zrender/zrender.js" />
     </list>
     <ignored path="web_admin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,7 +37,7 @@
       <file leaf-file-name="zabbixtools.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zabbixapps/zabbixtools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="437">
               <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding>
                 <element signature="e#46#57#0" expanded="true" />
@@ -126,8 +49,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web_admin/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
+            <state relative-caret-position="282">
+              <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -136,7 +59,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zabbixapps/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="380">
               <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding>
                 <element signature="e#15#51#0" expanded="true" />
@@ -167,6 +90,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="echarts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zabbixapps/templates/echarts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-114">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_admin/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -183,7 +116,7 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zabbixapps/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="57">
               <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -238,6 +171,7 @@
         <option value="$PROJECT_DIR$/web_admin/urls.py" />
         <option value="$PROJECT_DIR$/zabbixapps/templates/index.html" />
         <option value="$PROJECT_DIR$/zabbixapps/forms.py" />
+        <option value="$PROJECT_DIR$/static/js/echarts.js" />
         <option value="$PROJECT_DIR$/web_admin/settings.py" />
       </list>
     </option>
@@ -251,7 +185,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -279,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -323,12 +256,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="zabbixapps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="web_admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chart" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -863,27 +855,27 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18003026" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1828528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23114754" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771537" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44047618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23606557" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23606557" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44047618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -937,9 +929,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/templates/index.html" />
-    <entry file="file://$PROJECT_DIR$/apps/views.py" />
-    <entry file="file://$PROJECT_DIR$/apps/tools/ssh_host.py" />
     <entry file="file://$PROJECT_DIR$/web_admin/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1037,7 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
           <caret line="485" column="6" selection-start-line="485" selection-start-column="6" selection-end-line="485" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1045,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,7 +1054,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zabbixapps/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="57">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
@@ -1086,10 +1073,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zabbixapps/templates/host_manage.html">
+    <entry file="file://$PROJECT_DIR$/zabbixapps/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="380">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="e#15#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zabbixapps/zabbixtools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="e#46#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/echarts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="431" column="102" selection-start-line="431" selection-start-column="99" selection-end-line="431" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_admin/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1104,30 +1119,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zabbixapps/views.py">
+    <entry file="file://$PROJECT_DIR$/zabbixapps/templates/host_manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="e#15#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zabbixapps/zabbixtools.py">
+    <entry file="file://$PROJECT_DIR$/zabbixapps/templates/echarts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="e#46#57#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web_admin/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
+        <state relative-caret-position="282">
+          <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
           <folding />
         </state>
       </provider>
