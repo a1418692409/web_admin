@@ -2,10 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9a9a3a5-9c65-435b-be61-bccbb3d5f61d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/bar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/chord.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/eventRiver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/force.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/funnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/gauge.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/heatmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/k.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/line.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/radar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/scatter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/tree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/treemap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/venn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/chart/wordCloud.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/echarts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/Group.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/Handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/Layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/Painter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/Storage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/animation/Animation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/animation/Clip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/animation/easing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/dep/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/dep/excanvas2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/dep/excanvas3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Bar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Bubble.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/loadingEffect/DynamicLine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Ring.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Spin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/loadingEffect/Whirling.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/macro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/mixin/Eventful.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/mixin/Transformable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/BezierCurve.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Circle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Droplet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Ellipse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Heart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Isogon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Line.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Polygon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Polyline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Rectangle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Ring.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Rose.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Sector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/ShapeBundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Star.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/Trochoid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/util/PathProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/util/dashedLineTo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/util/smoothBezier.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/shape/util/smoothSpline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/tool/area.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/tool/color.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/tool/computeBoundingBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/tool/curve.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/tool/env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/tool/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/tool/guid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/tool/http.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/tool/log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/tool/math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/tool/matrix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/tool/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/tool/vector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zrender/zrender.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/echarts.js" afterPath="$PROJECT_DIR$/static/js/echarts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_admin/settings.py" afterPath="$PROJECT_DIR$/web_admin/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zabbixapps/templates/echarts.html" afterPath="$PROJECT_DIR$/zabbixapps/templates/echarts.html" />
     </list>
     <ignored path="web_admin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_admin/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
+            <state relative-caret-position="396">
+              <caret line="135" column="38" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -59,7 +138,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zabbixapps/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="342">
               <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding>
                 <element signature="e#15#51#0" expanded="true" />
@@ -68,33 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zabbixapps/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="host_manage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zabbixapps/templates/host_manage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="echarts.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="echarts.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zabbixapps/templates/echarts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="76">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -173,6 +230,7 @@
         <option value="$PROJECT_DIR$/zabbixapps/forms.py" />
         <option value="$PROJECT_DIR$/static/js/echarts.js" />
         <option value="$PROJECT_DIR$/web_admin/settings.py" />
+        <option value="$PROJECT_DIR$/zabbixapps/templates/echarts.html" />
       </list>
     </option>
   </component>
@@ -185,7 +243,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -264,60 +322,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -325,13 +329,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/django_test" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\web_admin\zabbixapps" />
       <recent name="D:\web_admin" />
     </key>
   </component>
@@ -846,7 +856,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508396458009</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="修改">
+      <created>1508402359799</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1508402359799</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -855,27 +872,29 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1828528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23114754" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771537" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44047618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29836065" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13691376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23606557" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44047618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1026,6 +1045,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
           <caret line="485" column="6" selection-start-line="485" selection-start-column="6" selection-end-line="485" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,16 +1093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zabbixapps/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="e#15#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zabbixapps/zabbixtools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1090,14 +1100,6 @@
           <folding>
             <element signature="e#46#57#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/echarts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="431" column="102" selection-start-line="431" selection-start-column="99" selection-end-line="431" selection-end-column="102" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,13 +1111,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zabbixapps/static/js/echarts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8452" column="136" selection-start-line="8452" selection-start-column="130" selection-end-line="8452" selection-end-column="136" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_admin/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="135" column="38" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zabbixapps/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,18 +1143,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zabbixapps/templates/echarts.html">
+    <entry file="file://$PROJECT_DIR$/zabbixapps/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="342">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="e#15#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_admin/settings.py">
+    <entry file="file://$PROJECT_DIR$/zabbixapps/templates/echarts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
+        <state relative-caret-position="76">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding />
         </state>
       </provider>
