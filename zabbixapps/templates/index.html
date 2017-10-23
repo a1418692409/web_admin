@@ -1,8 +1,12 @@
+<!doctype html>
 <html>
 <head>
     <title>运维平台</title>
+    {% load staticfiles %}
+    <link type="text/css" href="{% static 'css/style.css' %}" rel="stylesheet"/>
+    <script src="{% static 'js/alert.js' %}"></script>
 </head>
-<body style="background-color: yellow">
+<body onload="message()">
 {#<p><a href="http://127.0.0.1:8000/echarts">Echarts图表</a><br />#}
 <p><a href="{% url 'echarts' %}">Echarts图表</a><br />
 echarts图表用于运维平台统计数据展现</p>
@@ -13,10 +17,10 @@ echarts图表用于运维平台统计数据展现</p>
 <p><a href="{% url 'hostgroup' %}">zabbix监控主机组</a><br />
 展示目前ZABBIX监控中的主机组列表</p>
 <hr />
-<p><a href="{% url 'create' %}">添加被监控主机</a> </p>
-添加新的被监控主机，默认监控端口为10050
+<p><a href="{% url 'create' %}">添加被监控主机</a><br />
+添加新的被监控主机，默认监控端口为10050</p>
 <hr />
-<p><a href="{% url 'delete' %}">删除被监控主机</a> </p>
-删除被监控主机
+<p><a href="{% url 'delete' %}">删除被监控主机</a><br />
+删除被监控主机</p>
 </body>
 </html>
