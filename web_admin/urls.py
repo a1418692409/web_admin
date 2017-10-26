@@ -16,6 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from zabbixapps import views
+from zabbixapps import search
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -26,4 +27,6 @@ urlpatterns = [
     url(r'^hostgroup/$',views.get_hostgroup, name='hostgroup'),
     url(r'^echarts/', views.echarts, name='echarts'),
     url(r'^$', views.index),
+    url(r'^search-form$', search.search_form),
+    url(r'^search$', search.search),
 ]

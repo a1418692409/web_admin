@@ -1,8 +1,38 @@
-body
-{
-    background-color: chartreuse;
-}
+/*body*/
+/*{*/
+    /*background-color: chartreuse;*/
+/*}*/
 p
 {
     color: red;
+}
+#container{
+
+}
+#header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+#nav {
+    line-height: 30px;
+    background-color: #eeeeee;
+    height: 500px;
+    width: 20%;
+    float: left;
+    padding: 5px;
+}
+#section {
+    /*height: 60%;*/
+    width: 76%;
+    float: left;
+    padding: 10px;
+}
+#footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
 }
