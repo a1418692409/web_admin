@@ -11,7 +11,8 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 """
 # from pprint import pprint
 import os
-# import sys
+import sys
+# sys.path.append('/usr/lib64/python2.7/site-packages')
 # print sys.path
 
 
@@ -136,10 +137,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # STATIC_URL = os.path.join(BASE_DIR, '/static/')
-STATIC_ROOT = os.path.join(BASE_DIR, 'zabbixapps')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'zabbixapps')
 # pprint(STATIC_ROOT)
 STATICFILES_DIRS = (
-    ('css', os.path.join(STATIC_ROOT, 'css').replace('\\', '/')),
+    # ('css', os.path.join(STATIC_ROOT, 'css').replace('\\', '/')),
     # ('js', os.path.join(STATIC_ROOT, 'js').replace('\\', '/')),
-    # os.path.join(BASE_DIR, 'static/'),
+    os.path.join(BASE_DIR, 'static'),
 )
