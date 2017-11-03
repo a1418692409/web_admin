@@ -26,7 +26,7 @@ def create_host(request):
             return HttpResponse(create_host_message)
     else:
         form = CreateHostAddForm()
-    return render(request, 'host_manage.html', {'form':form})
+    return render(request, 'zabbixapps/host_manage.html', {'form':form})
 
 def del_host(request):
     if request.method == 'POST':
@@ -38,7 +38,7 @@ def del_host(request):
             return HttpResponse(del_host_message)
     else:
         form = DelHostAddForm()
-    return  render(request, 'host_manage.html', {'form': form})
+    return  render(request, 'zabbixapps/host_manage.html', {'form': form})
 
 
 def get_host(request):
@@ -49,19 +49,19 @@ def get_host(request):
     # pprint(host_list)
 
     # return HttpResponse(host_list)
-    return render(request, 'host_list.html', {'host_list':host_list})
+    return render(request, 'zabbixapps/host_list.html', {'host_list':host_list})
 
 def get_template(request):
     template_list = host.template_get()
     # pprint(template_list)
     # return  HttpResponse(template_list)
-    return render(request, 'template_list.html', {'template_list': template_list})
+    return render(request, 'zabbixapps/template_list.html', {'template_list': template_list})
 
 def get_hostgroup(request):
     hostgroup_list = host.hostgroup_get()
     # pprint(hostgroup_list)
     # return HttpResponse(hostgroup_list)
-    return render(request, 'hostgroup_list.html', {'hostgroup_list': hostgroup_list})
+    return render(request, 'zabbixapps/hostgroup_list.html', {'hostgroup_list': hostgroup_list})
 
 
 def echarts(request):
