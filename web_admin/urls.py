@@ -29,5 +29,4 @@ urlpatterns = [
     url(r'^$', views.index),
     url(r'^search-form$', search.search_form),
     url(r'^search$', search.search),
-    url(r'polls/', include('polls.urls', namespace="polls")),
 ]

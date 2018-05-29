@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'web_admin',
     'zabbixapps',
-    'polls',
 ]
 
 MIDDLEWARE_CLASSES = [
